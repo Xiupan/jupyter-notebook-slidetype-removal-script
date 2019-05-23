@@ -20,5 +20,15 @@ python script.py test.ipynb output.ipynb
 
 After it runs, you will see a new Jupyter Notebook in your folder with all the cells that were marked as "Skip", removed! :ultrafastparrot:
 
+## Update
+I just added a new feature! Now you can add the `--notes` tag to the command to also delete cells that were marked as "Notes" as well as the default behavior of removing "Skip" cells.
+
+Example usage:
+```
+python script.py test.ipynb output.ipynb --notes
+```
+
+Note: The `--notes` flag must be the third argument passed into the script.
+
 Warning:
 This is the first version of this script. Please give me feedback so I can improve upon it with future iterations! :)
